@@ -22,7 +22,7 @@ The virtual currency climbed suddenly at around 3:30 a.m. ET, adding $5,000 in t
 This prediction problem is a supervised classification usecase where Cryptocurrency tweets are classified as “positive”, “neutral” or “negative”. Being a NLP usecase, due to the high cost of the training process of a neural net from scratch, we leveraged a small, fast, cheap and light Transformer model trained by distilling BERT base, DistilBERT. Tweets are first tokenized using DistilBert tokenizer and model is then retrained with our labeled [_data_](./Exploration/data/bitcointweets.csv).
 - The notebook used for data wrangling can be found [_here_](./Exploration/datacleansing/DataCleansingNotebook.ipynb).
 - The notebook used for model training, testing, saving can be found [_here_](./Exploration/modeltraining/Bert.ipynb). Although light-weight DistilBERT model still requires GPU usage for inferencing as well as re-training. We used Paperspace platform & Tesla V100 machine to run our notebook.
-- The scripts in the aforementioned two notebooks are then refactored into [_CryptoSentimentAnalysis-](./CryptoSentimentAnalysis/) package for production. 
+- The scripts in the aforementioned two notebooks are then refactored into [_CryptoSentimentAnalysis_](./CryptoSentimentAnalysis/) package for production. 
 - The code in Data Cleansing [_notebook_](./Exploration/datacleansing/DataCleansingNotebook.ipynb) is restructured into [_data.py_](./CryptoSentimentAnalysis/data.py) module.
 - The code in Retraining [_notebook_](./Exploration/modeltraining/Bert.ipynb) is restructured into [_models.py_](./CryptoSentimentAnalysis/data.py) module.
 - [_Static_](./static/) and [_Templates_](./templates/) folders contain the web application htmls and styling .css files.
