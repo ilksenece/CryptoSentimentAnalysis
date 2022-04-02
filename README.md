@@ -26,7 +26,7 @@ This prediction problem is a supervised classification usecase where Cryptocurre
 - The code in Data Cleansing [_notebook_](./Exploration/datacleansing/DataCleansingNotebook.ipynb) is restructured into [_data.py_](./CryptoSentimentAnalysis/data.py) module.
 - The code in Retraining [_notebook_](./Exploration/modeltraining/Bert.ipynb) is restructured into [_models.py_](./CryptoSentimentAnalysis/data.py) module.
 - [_Static_](./static/) and [_Templates_](./templates/) folders contain the web application htmls and styling .css files.
-- The current directory has all the necessary files to create the production application EXCEPT for the re-trained DistilBERT model that is supposed to be in [_SavedModels-](./CryptoSentimentAnalysis/SavedModels/) subfolder however due to its size was not uploaded to GIT. Re-trained model can be regenerated and saved using the Retraining [_notebook_](./Exploration/modeltraining/Bert.ipynb) on any GPU-enabled machine. 
+- The current directory has all the necessary files to create the production application EXCEPT for the re-trained DistilBERT model that is supposed to be in [_SavedModels_](./CryptoSentimentAnalysis/SavedModels/) subfolder however due to its size was not uploaded to GIT. Re-trained model can be regenerated and saved using the Retraining [_notebook_](./Exploration/modeltraining/Bert.ipynb) on any GPU-enabled machine. 
   - app.py to create flask application
   - dockerfile to create docker image
   - requirements.txt to list all required packages
