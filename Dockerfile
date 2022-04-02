@@ -4,7 +4,7 @@
 FROM python:3.8-slim-buster
 
 # Meta-data
-LABEL maintainer="Ece Ay <eceicyuz@gmail.com>" \
+LABEL maintainer="Ece Ay <e......@.....m>" \
       description="Docker Crypto Sentiment Analysis Application\
       This specific use case has the container set up like an executible.\
       Code plus dependencies required to run the program are installed in the\
