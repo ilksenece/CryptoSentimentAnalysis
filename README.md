@@ -35,12 +35,12 @@ This prediction problem is a supervised classification usecase where Cryptocurre
 
 
 ## Technologies Used
-- Jupyter Notebook, PyCharm, Python 3
-- Transfer Learning by Hugging Face: DistilBERT: https://huggingface.co/docs/transformers/model_doc/distilbert
-- Paperspace: Tesla V100 GPU machine
-- Flask: a popular, extensible web microframework for building web applications with Python
-- Docker: to create the image for the application
-- Google Cloud to create the container for the image and deploy the application: https://v0-0-1-kzw4svp5zq-uc.a.run.app/
+- [_Anaconda_](https://www.anaconda.com/), [_Jupyter Notebook_](https://jupyter.org/), [_PyCharm_](https://www.jetbrains.com/pycharm/), [_Python 3_](https://www.python.org/)
+- Transfer Learning by Hugging Face: [_DistilBERT_](https://huggingface.co/docs/transformers/model_doc/distilbert)
+- [_Paperspace_](https://www.paperspace.com/): Tesla V100 GPU machine
+- [_Flask_](https://flask.palletsprojects.com/en/2.1.x/): a popular, extensible web microframework for building web applications with Python
+- [_Docker_](https://www.docker.com/): to create the image for the application
+- [_Google Cloud_](https://cloud.google.com/): to create the container for the image and deploy the application
 
 
 ## Features
