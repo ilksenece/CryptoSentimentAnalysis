@@ -22,7 +22,7 @@ setup(
     # Substitute <github_account> with the name of your GitHub account
     url='https://github.com/ilksenece/CryptoSentimentAnalysis',
     author='Ece Ay',  # Substitute your name
-    author_email='eceicyuz@outlook.com',  # Substitute your email
+    author_email='ec.........m',  # Substitute your email
     license='XXX',
     packages=['titanic'],
     install_requires=[
